@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         countText.text = "Score: " + count.ToString();
         if( count >= 14)
         {
-            winTextObject.SetActive(true);
+            winTextObject.SetActive(true); 
         }
     }
     private void OnTriggerEnter(Collider other)
